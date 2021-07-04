@@ -1,0 +1,42 @@
+.newsListBlock {
+    box-sizing: border-box;
+    padding-bottom: 3rem;
+    width: 768px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .newListBlock {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.newsItemBlock {
+    display: flex;
+}
+.newsItemBlock .thumbnail {
+    margin-right: 1rem;
+}
+.newsItemBlock .thumbnail img {
+    display: inline-block;
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+}
+.newsItemBlock .contentes h2 {
+    margin: 0;
+}
+.newsItemBlock .contentes h2 a {
+    color: black;
+}
+.newsItemBlock .contentes p {
+    margin: 0;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    white-space: normal;
+}
+.newsItemBlock + .newsItemBlock {
+    margin-top: 3rem;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import SubMenu from "./SubMenu";
 
 function MainMenu({menu, settingMain, settingSub, idx}){
+    // console.log("idx - "+idx, menu);
     const onClick = () => {
         settingMain(idx);
     }

@@ -7,16 +7,24 @@ let initialMenu = [
         icon:'country',
         subMenu:[
             {
-                s_name: 'main.text.soul',
-                s_url: 'soul',
+                s_name: 'main.text.korea',
+                name: 'Korea',
+                s_url: '/country/kr',
             },
             {
-                s_name: 'main.text.beijing',
-                s_url: 'beijing',
+                s_name: 'main.text.china',
+                name: 'China',
+                s_url: '/country/cn',
             },
             {
-                s_name: 'main.text.newyork',
-                s_url: 'newyork',
+                s_name: 'main.text.usa',
+                name: 'USA',
+                s_url: '/country/us',
+            },
+            {
+                s_name: 'main.text.total',
+                name: 'Total',
+                s_url: '/country/total',
             },
         ]
     },
@@ -28,15 +36,18 @@ let initialMenu = [
         subMenu:[
             {
                 s_name: 'main.text.general',
-                s_url: 'soul',
+                name: 'General',
+                s_url: '/category/general',
             },
             {
-                s_name: 'main.text.business',
-                s_url: 'beijing',
+                s_name: 'main.text.sports',
+                name: 'Sports',
+                s_url: '/category/sports',
             },
             {
                 s_name: 'main.text.entertainment',
-                s_url: 'newyork',
+                name: 'Entertainment',
+                s_url: '/category/entertainment',
             },
         ]
     }]
